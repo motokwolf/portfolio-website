@@ -151,3 +151,17 @@ img:hover {
 .center {
     text-align: center;
 }
+
+.photos div {
+    margin: 1em;
+}
+
+.photos div a img {
+    object-fit: cover;
+    min-width: 100%;
+}
+
+.img-thumbnail {
+    background-size: cover;
+    width:200px; height:200px;
+}
