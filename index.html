@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Karen Carnaval Art & Design</title>
+    <title>Karen Carnaval Illustration & Design</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
@@ -19,11 +19,18 @@
 
     <!--Material Icons-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet"> 
+
   </head>
   <body>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
+    <nav class="navbar navbar-inverse">
+        <div class="container ">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
               <span class="sr-only">Toggle navigation</span>
@@ -31,50 +38,110 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Project name</a>
+            <a class="navbar-brand" href="#"><img src="img/my-logo-white.svg" height="70px"></a>
           </div>
           <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
               <li class="active"><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="#about">About me</a></li>
+              <li><a href="#">Galery</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
       </nav>
 
-      <div class="container">
-        <div>logo Home About me Galery Contact me</div>
-        <main>
-            <div>This is Home
-                <h1>Hi! I'm Karen Carnaval</h1>
-                <p>A creative Graphic and Web Designer based in Toronto Canada</p>
-                <li> this all contact pages, all in logos
-                    <li><img>Twitter</li>
-                    <li>Artstation</li>
-                    <li>Linked in</li>
-                </li>
+      <main>
+      <div class="container justify-content-center">
+            <div class="home block flow container-fluid">
+              <img src="img/toki-white-01.svg" alt="Toki-Chara" style="max-height: 300px">
+                <div class="text-block">
+                  <div class="max"><h1>Designs by <br><em>Karen Carnaval</em></h1></div>
+                    <p>A creative Graphic and Web Designer based in Toronto Canada</p>
+                    <div class="contact-list">
+                      <ul>
+                          <li><a href="https://twitter.com/MotokWolf"><img src="img/Twitter.svg" alt="Twitter" height="30px" id="white"></a></li>
+                          <li><a href="https://www.artstation.com/motok"><img src="img/ArtStation-logo-horizontal-white.svg" alt="Artstation" height="30px" id="white"></a></li>
+                          <li><a href="https://www.linkedin.com/in/karen-carnaval/"><img src="img/LI-Logo.png" alt="Linked In" height="30px" id="white"></a></li>
+                      </ul>
+                </div>
+              </div>
             </div>
-            <div>This is About me 
-                <div>text about me</div>
-                <div>my knowledge/skills</div>
-                <div>my education</div>                
+            <div class="about block" id="about">
+              <h3>About me</h3>
+              <h1>Hire me for your project</h1>
+                <p>+5 years experienced Graphic Designer and Illustrator Artist with extensive experience in multimedia
+                  design developing marketing and visual language, through animation, printed, mobile app and game media.
+                  Assumed the role of an Art Supervisor for a large team of professionals in the production of a multinational
+                  children's 2D animation series and mobile apps, tasked with producing consistent concept and background
+                  art, prop and character designs for 2D cutout animation on ToomBoom Harmony. Developed for over 5
+                  different animated shows, 2 mobile apps and 2 short films.
+                </p>
             </div>
-            <div>This is the Galery hook</div>
-            <div>This is Contact me
+            <div class="block center">
+              <h3>My Knowledge & <em>Skills</em></h3>
+              <div class="skills">
+                 <div class="skill-card"><h2>UI/UX Design</h2>
+                  <p>
+                    Developed mobile app and web production material for companies such as Disney, Apple Samsung,
+                  </p>
+                </div> 
+                 <div class="skill-card"><h2>Illustration</h2>
+                  <p>Full time Illustrator artist with 2D/3D Knowledge and wide variety of styles.</p>
+                </div> 
+                 <div class="skill-card"><h2>Branding Design</h2>
+                  <p>
+                    Coordinated the art sector in production of graphic design marketing for print and web as well as
+logotype visual language, always with focus in quality and detail.
+                  </p></div>      
+              </div>       
+            </div>
+            <div class="block center">
+              <h3>My Portfolio</h3>
+              <h1><em>Projects</em> I've worked</h1>
+              <p>See more of my projects and artworks </p>
+              
+              <!--add img link to galery-->
+              <div class="image">
+                <div class="hover-button"><a href="/gallery">Check my Portfolio Galery</a></div>
+                <img src="img/Portfolio-Graphic-Design---Karen-Carnaval.png" class="img-fluid" alt="Portfolio Galery">
+              </div>
+            </div>
+            <div class="contact-me container block" id="contact">
+
+              <div class="flow">
+                
+                <figure class="my-logo">
+                  <img src="img/my-logo-pink-01-02.svg" alt="Logo" height="200px">
+                </figure>
+
+                <div>
                 <h1>Contact Me</h1>
-                <h3>adress</h3>
-                <h3>email</h3>
-                <li> this all contact pages, all in logos
-                    <li>Twitter</li>
-                    <li>Artstation</li>
-                    <li>Linked in</li>
-                </li>
-            </div>
-            <div>This is footer</div>
-        </main>
-       
+                
+                <h2><span class="material-icons-round">
+                  location_on
+                  </span> Toronto ON, Canada.</h2>
+                <h2><span class="material-icons-round">
+                  email
+                  </span> <a href="mailto:karen@karencarnaval.com">karen@karencarnaval.com</a></h2>
+                  <div class="contact-list">
+                    <ul>
+                        <li><a href="https://twitter.com/MotokWolf"><img src="img/Twitter.svg" alt="Twitter" height="30px" id="white"></a></li>
+                        <li><a href="https://www.artstation.com/motok"><img src="img/ArtStation-logo-horizontal-white.svg" alt="Artstation" height="30px" id="white"></a></li>
+                        <li><a href="https://www.linkedin.com/in/karen-carnaval/"><img src="img/LI-Logo.png" alt="Linked In" height="30px" id="white"></a></li>
+                    </ul>
+                </div>
+                </div>
+              </div>
+            </div>   
     </div>
+  </main>
+
+    <footer style="position: relative; left: 30px;">
+      <div class="container-fluid">
+      Karen Carnaval &copy; 2021 
+    </div>
+    </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
